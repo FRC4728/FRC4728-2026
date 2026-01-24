@@ -20,9 +20,9 @@ public final class Constants {
   public static class TurretConstants {
     public static String turretCanbus = "rio";
     public static int m_turretMotorId = 50;
-    public static int m_flywheelMotor1 = 11;
-    public static int m_flywheelMotor2 = 12;
-    public static int m_hoodMotor = 13;
+    public static int m_flywheelMotor1 = 51;
+    public static int m_flywheelMotor2 = 52;
+    public static int m_hoodMotor = 53;
 
     public static double k_turret_p = 0.1;
     public static double k_turret_i = 0.0;
@@ -30,30 +30,79 @@ public final class Constants {
     public static double k_turret_s = 0.0;
     public static double k_turret_v = 0.0;
     public static double k_turret_a = 0.0;
-
     public static double k_turret_acceleration = 100;
     public static double k_turret_velocity = 100;
-    
+
+    public static double k_flywheel_p = 0.1;
+    public static double k_flywheel_i = 0.0;
+    public static double k_flywheel_d = 0.0;
+    public static double k_flywheel_s = 0.0;
+    public static double k_flywheel_v = 0.0;
+    public static double k_flywheel_a = 0.0;
+    public static double k_flywheel_acceleration = 100;
+    public static double k_flywheel_velocity = 100;
+
+    public static double k_hood_p = 0.1;
+    public static double k_hood_i = 0.0;
+    public static double k_hood_d = 0.0;
+    public static double k_hood_s = 0.0;
+    public static double k_hood_v = 0.0;
+    public static double k_hood_a = 0.0;
+    public static double k_hood_acceleration = 100;
+    public static double k_hood_velocity = 100;
+
   }
 
-  public static class IndexerConstants {
+  public static class indexerConstants {
     public static String indexerCanbus = "canivore";
-    public static int m_indexerMotor = 14;
+    public static int m_indexerMotor = 54;
+    public static double k_indexer_p = 0.1;
+    public static double k_indexer_i = 0.0;
+    public static double k_indexer_d = 0.0;
+    public static double k_indexer_s = 0.0;
+    public static double k_indexer_v = 0.0;
+    public static double k_indexer_a = 0.0;
+    public static double k_indexer_acceleration = 100;
+    public static double k_indexer_velocity = 100;
   }
 
-  public static class IntakeConstants {
+  public static class intakeConstants {
     public static String intakeCanbus = "canivore";
-    public static int m_intakeMotor = 15;
+    public static int m_intakeMotor = 55;
+    public static double k_intake_p = 0.1;
+    public static double k_intake_i = 0.0;
+    public static double k_intake_d = 0.0;
+    public static double k_intake_s = 0.0;
+    public static double k_intake_v = 0.0;
+    public static double k_intake_a = 0.0;
+    public static double k_intake_acceleration = 100;
+    public static double k_intake_velocity = 100;
 
   }
 
   public static class ClimberConstants {
     public static String climberCanbus = "canivore";
-    public static int m_climberMotor = 16; 
+    public static int m_climberMotor = 56; 
+    public static double k_climber_p = 0.1;
+    public static double k_climber_i = 0.0;
+    public static double k_climber_d = 0.0;
+    public static double k_climber_s = 0.0;
+    public static double k_climber_v = 0.0;
+    public static double k_climber_a = 0.0;
+    public static double k_climber_acceleration = 100;
+    public static double k_climber_velocity = 100;
   }
 
   public static class KickerConstants {
     public static String kickerCanbus = "canivore"; 
-    public static int m_kickerMotor = 17;
+    public static int m_kickerMotor = 57;
+    public static double k_kicker_p = 0.1;
+    public static double k_kicker_i = 0.0;
+    public static double k_kicker_d = 0.0;
+    public static double k_kicker_s = 0.0;
+    public static double k_kicker_v = 0.0;
+    public static double k_kicker_a = 0.0;
+    public static double k_kicker_acceleration = 100;
+    public static double k_kicker_velocity = 100;
   }
 }
