@@ -1,7 +1,11 @@
 plugins {
     id "java"
     id "edu.wpi.first.GradleRIO" version "2026.2.1"
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> 2833dc1a0621fcf113ea3ce2f4224aeb1e666eae
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
